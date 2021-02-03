@@ -1,6 +1,8 @@
 # Cloudflare Workers Router
 
-Cloudflare Workers Router is a super lightweight router with middleware support for CloudFlare Workers, inspired by the express.js syntax. When I was trying out Cloudflare Workers I almost immediately noticed how fast it was compared to other serverless offerings. So I wanted to build a full fledged API to see how it performs doing real work, but since I wasn't able to find a router that suited my need I created my own.
+Cloudflare Workers Router is a super lightweight router with middleware support for CloudFlare Workers, inspired by the express.js syntax.
+
+When I was trying out Cloudflare Workers I almost immediately noticed how fast it was compared to other serverless offerings. So I wanted to build a full fledged API to see how it performs doing real work, but since I wasn't able to find a router that suited my need I created my own.
 
 ## Contents
 
