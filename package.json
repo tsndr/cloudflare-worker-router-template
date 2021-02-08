@@ -8,7 +8,7 @@
         "format": "prettier --write '**/*.{js,css,json,md}'"
     },
     "author": "Tobias Schneider",
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
         "prettier": "^1.17.0"
     },
