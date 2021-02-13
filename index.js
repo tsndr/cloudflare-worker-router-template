@@ -1,4 +1,4 @@
-const Router = require('./router')
+const Router = require('@tsndr/cloudflare-worker-router')
 const router = new Router()
 
 router.cors()

@@ -15,7 +15,7 @@ When I was trying out Cloudflare Workers I almost immediately noticed how fast i
 ### Simple Example
 
 ```javascript
-const Router = require('./router')
+const Router = require('@tsndr/cloudflare-worker-router')
 const router = new Router()
 
 // Enabling buildin CORS support
@@ -77,7 +77,7 @@ addEventListener('fetch', event => {
 
 ### Wrangler
 
-You can use [wrangler](https://github.com/cloudflare/wrangler) to generate a new Cloudflare Workers project based on this template by running the following command from your terminal:
+You can use [wrangler](https://github.com/cloudflare/wrangler) to generate a new Cloudflare Workers project based on this router by running the following command from your terminal:
 
 ```
 wrangler generate myapp https://github.com/tsndr/cloudflare-worker-router-template
@@ -96,6 +96,16 @@ You can also test it loacally by running the following command:
 ```
 wrangler dev
 ```
+
+
+### npm
+
+If you already have a wrangler project you can install the router like this:
+
+```
+npm i @tsndr/cloudflare-worker-router
+```
+
 
 ### Serverless
 
