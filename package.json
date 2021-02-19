@@ -13,7 +13,7 @@
         "prettier": "^1.17.0"
     },
     "dependencies": {
-        "@tsndr/cloudflare-worker-router": "^1.0.0",
+        "@tsndr/cloudflare-worker-router": "^1.0.1",
         "serverless-cloudflare-workers": "^1.2.0"
     }
 }
