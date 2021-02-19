@@ -1,12 +1,13 @@
 # Cloudflare Workers Router
 
-Cloudflare Workers Router is a super lightweight router (3.6 kB) with middleware support and ZERO dependencies for CloudFlare Workers, inspired by the express.js syntax.
+[Cloudflare Workers Router](/tsndr/cloudflare-worker-router) is a super lightweight router (3.6 kB) with middleware support and ZERO dependencies for CloudFlare Workers, inspired by the express.js syntax.
 
 When I was trying out Cloudflare Workers I almost immediately noticed how fast it was compared to other serverless offerings. So I wanted to build a full fledged API to see how it performs doing real work, but since I wasn't able to find a router that suited my needs I created my own.
 
 ## Contents
 
 - [Usage](#usage)
+- [Reference](/tsndr/cloudflare-worker-router/#reference)
 - [Setup](#setup)
 
 
@@ -71,6 +72,11 @@ addEventListener('fetch', event => {
   event.respondWith(router.handle(event))
 })
 ```
+
+
+## Reference
+
+See reference [here](/tsndr/cloudflare-worker-router).
 
 
 ## Setup
