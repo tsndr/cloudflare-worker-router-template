@@ -86,7 +86,7 @@ See reference [here](https://github.com/tsndr/cloudflare-worker-router/#referenc
 You can use [wrangler](https://github.com/cloudflare/wrangler) to generate a new Cloudflare Workers project based on this router by running the following command from your terminal:
 
 ```
-wrangler generate myapp https://github.com/tsndr/cloudflare-worker-router-template
+wrangler generate my-app https://github.com/tsndr/cloudflare-worker-router-template
 ```
 
 Before publishing your code you need to edit `wrangler.toml` file and add your Cloudflare `account_id` - more information about publishing your code can be found [in the documentation](https://developers.cloudflare.com/workers/learning/getting-started).
